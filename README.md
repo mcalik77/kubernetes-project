@@ -8,4 +8,4 @@ Create yaml formatted Kubernetes manifest for below task
     - create the namespace if it doesn't exist
 5- Create a pod in test namespace and set resource limit to 1Gi of memory and 200m CPU 
     - create the namespace if it doesn't exist
-
+Done by Mustafa Calik
