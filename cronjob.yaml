@@ -8,6 +8,7 @@ spec:
     spec:
       template:
         spec:
+          activeDeadlineSeconds: 10
           containers:
           - name: hello
             image: busybox
@@ -15,5 +16,4 @@ spec:
             - /bin/sh
             - -c
             - uname    
-          activeDeadlineSeconds: 10
           restartPolicy: OnFailure
